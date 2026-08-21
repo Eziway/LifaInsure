@@ -17,9 +17,14 @@ import TermsPage from './pages/TermsPage';
 import POPIAPage from './pages/POPIAPage';
 import EmailDisclaimerPage from './pages/EmailDisclaimerPage';
 
+const getRouterBasename = () => {
+  const pathname = window.location.pathname;
+  return pathname.startsWith('/LifaInsure') ? '/LifaInsure' : '/';
+};
+
 export function App() {
   return (
-    <Router>
+    <Router basename={getRouterBasename()}>
       <div className="min-h-screen flex flex-col bg-lifa-bgLight text-slate-900 selection:bg-lifa-navy selection:text-white">
         {/* Top Contact Utility Header */}
         <TopHeader />

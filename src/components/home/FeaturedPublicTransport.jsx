@@ -4,6 +4,8 @@ import { Bus, Car, Shield, Check, ArrowRight } from 'lucide-react';
 import SectionHeading from '../common/SectionHeading';
 
 export function FeaturedPublicTransport() {
+  const imageBase = import.meta.env.BASE_URL;
+
   const categories = [
     {
       title: 'Ride-Hailing Vehicles',
@@ -82,7 +84,7 @@ export function FeaturedPublicTransport() {
           <div className="lg:col-span-5">
             <div className="relative rounded-3xl overflow-hidden border border-lifa-gold/30 shadow-2xl bg-slate-950 group">
               <img
-                src="/images/public_transport_fleet.png"
+                src={`${imageBase}images/public_transport_fleet.png`}
                 alt="South African Public Transport Fleet Insurance"
                 className="w-full h-72 sm:h-80 object-cover object-center group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"

@@ -6,6 +6,8 @@ import CTASection from '../components/common/CTASection';
 import { Bus, Car, Building2, Briefcase, Laptop, CheckCircle2, ArrowRight, ShieldCheck } from 'lucide-react';
 
 export function ServicesPage() {
+  const imageBase = import.meta.env.BASE_URL;
+
   usePageTitle(
     'Insurance Solutions | Lifa Insurance Brokers',
     'Explore comprehensive insurance solutions by Lifa Insurance Brokers for public transport, ride-hailing, motor vehicles, property, commercial businesses, and work equipment.'
@@ -20,7 +22,7 @@ export function ServicesPage() {
       title: 'Public Transport & Taxi Insurance',
       subtitle: 'Ride-Hailing, Metered Taxis, Minibus Taxis, Shuttles & School Buses',
       description: 'Lifa Insurance Brokers specializes in assisting public transport operators find suitable and affordable short-term insurance cover for vehicles and passenger liabilities.',
-      image: '/images/hero_public_transport.png',
+      image: `${imageBase}images/hero_public_transport.png`,
       icon: Bus,
       badge: 'Niche Specialisation',
       subcategories: [
@@ -42,7 +44,7 @@ export function ServicesPage() {
       title: 'Motor Vehicle Insurance',
       subtitle: 'Private Motor Vehicles, Business Vehicles & Commercial Fleets',
       description: 'Protect your personal or business vehicles against accidental damage, third-party claims, theft, hijacking, and weather damage.',
-      image: '/images/motor_insurance.png',
+      image: `${imageBase}images/motor_insurance.png`,
       icon: Car,
       subcategories: [
         'Private Motor Vehicles',
@@ -62,7 +64,7 @@ export function ServicesPage() {
       title: 'Property & Household Insurance',
       subtitle: 'Houses, Household Contents, Office Buildings & Commercial Real Estate',
       description: 'Safeguard your physical properties and personal belongings against fire, storm, water damage, burglary, and structural loss.',
-      image: '/images/property_insurance.png',
+      image: `${imageBase}images/property_insurance.png`,
       icon: Building2,
       subcategories: [
         'Private Suburban Houses & Outbuildings',
@@ -82,7 +84,7 @@ export function ServicesPage() {
       title: 'Commercial & Business Insurance',
       subtitle: 'Commercial Assets, Office Contents, Tools & Business-Use Assets',
       description: 'Tailored insurance solutions for small businesses, corporate offices, and transport operators protecting operational assets and equipment.',
-      image: '/images/commercial_business.png',
+      image: `${imageBase}images/commercial_business.png`,
       icon: Briefcase,
       subcategories: [
         'Commercial Assets & Stock',
@@ -102,7 +104,7 @@ export function ServicesPage() {
       title: 'Computers & Equipment Insurance',
       subtitle: 'Computers, Mobile Devices, Valuable Equipment & Portable Assets',
       description: 'Specified and all-risk cover for valuable electronic equipment, laptops, smartphones, and specialized tools used at work or on the road.',
-      image: '/images/commercial_business.png',
+      image: `${imageBase}images/commercial_business.png`,
       icon: Laptop,
       subcategories: [
         'Laptops, Desktop PCs & Servers',

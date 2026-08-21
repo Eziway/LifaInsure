@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom';
 import { ShieldCheck, ArrowRight, CheckCircle2, ChevronRight } from 'lucide-react';
 
 export function HeroSection() {
+  const imageBase = import.meta.env.BASE_URL;
+
   return (
     <section className="relative min-h-[640px] lg:min-h-[720px] flex items-center bg-slate-950 text-white overflow-hidden">
       {/* Hero Photography Asset Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hero_public_transport.png"
+          src={`${imageBase}images/hero_public_transport.png`}
           alt="Lifa Insurance Brokers South African Transport & Financial Insurance"
           className="w-full h-full object-cover object-center scale-105 animate-subtleZoom"
         />

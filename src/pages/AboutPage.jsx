@@ -6,6 +6,8 @@ import CTASection from '../components/common/CTASection';
 import { ShieldCheck, Target, Award, CheckCircle2, Bus, Car, Building, Users } from 'lucide-react';
 
 export function AboutPage() {
+  const imageBase = import.meta.env.BASE_URL;
+
   usePageTitle(
     'About Us | Lifa Insurance Brokers cc',
     'Learn about Lifa Insurance Brokers cc, an authorised financial services provider (FSP 43132) specialising in public transport, domestic, and commercial insurance in South Africa.'
@@ -18,7 +20,7 @@ export function AboutPage() {
       <section className="bg-slate-900 text-white py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/commercial_business.png"
+            src={`${imageBase}images/commercial_business.png`}
             alt="Lifa Insurance Brokers Corporate Background"
             className="w-full h-full object-cover opacity-20"
           />
@@ -63,7 +65,7 @@ export function AboutPage() {
           <div className="lg:col-span-6">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-slate-950">
               <img
-                src="/images/hero_public_transport.png"
+                src={`${imageBase}images/hero_public_transport.png`}
                 alt="Lifa Insurance Brokers Public Transport Intermediary Services"
                 className="w-full h-96 object-cover object-center"
               />

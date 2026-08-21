@@ -11,6 +11,8 @@ import ServiceCard from '../components/common/ServiceCard';
 import { Bus, Car, Building2, Briefcase, Laptop } from 'lucide-react';
 
 export function HomePage() {
+  const imageBase = import.meta.env.BASE_URL;
+
   usePageTitle(
     'Lifa Insurance Brokers | Professional Insurance Solutions',
     'Lifa Insurance Brokers provides professional insurance advice and intermediary services for public transport, motor, commercial, property and domestic insurance in South Africa.'
@@ -20,7 +22,7 @@ export function HomePage() {
     {
       title: 'Public Transport Insurance',
       description: 'Specialised short-term cover options for ride-hailing (Uber/Bolt), metered & non-metered taxis, shuttles, school buses and commercial buses.',
-      image: '/images/public_transport_fleet.png',
+      image: `${imageBase}images/public_transport_fleet.png`,
       icon: Bus,
       badge: 'Niche Focus',
       featured: true,
@@ -35,7 +37,7 @@ export function HomePage() {
     {
       title: 'Motor Insurance',
       description: 'Comprehensive, third-party, fire and theft protection for private motor vehicles and business-use vehicles.',
-      image: '/images/motor_insurance.png',
+      image: `${imageBase}images/motor_insurance.png`,
       icon: Car,
       items: [
         'Private motor vehicles',
@@ -48,7 +50,7 @@ export function HomePage() {
     {
       title: 'Property Insurance',
       description: 'Protection for residential houses, household contents, commercial office buildings, and commercial real estate.',
-      image: '/images/property_insurance.png',
+      image: `${imageBase}images/property_insurance.png`,
       icon: Building2,
       items: [
         'Residential homes & sectional title',
@@ -61,7 +63,7 @@ export function HomePage() {
     {
       title: 'Business Insurance',
       description: 'Tailored commercial insurance solutions protecting assets, office contents, machinery, and business operational risks.',
-      image: '/images/commercial_business.png',
+      image: `${imageBase}images/commercial_business.png`,
       icon: Briefcase,
       items: [
         'Commercial asset protection',
@@ -74,7 +76,7 @@ export function HomePage() {
     {
       title: 'Personal & Asset Insurance',
       description: 'Specific cover options for portable valuable items, electronic equipment, computers, and mobile devices.',
-      image: '/images/commercial_business.png',
+      image: `${imageBase}images/commercial_business.png`,
       icon: Laptop,
       items: [
         'Laptops & desktop computers',
