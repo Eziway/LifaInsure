@@ -20,7 +20,7 @@ export function HeroSection() {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
-        <div className="max-w-3xl space-y-6">
+        <div className="max-w-3xl lg:mr-auto lg:ml-0 md:ml-0 sm:ml-0 mr-auto space-y-6 text-left lg:text-left">
           
           {/* FSP Accreditation Tag */}
           <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-lifa-gold/20 text-lifa-gold border border-lifa-gold/40 text-xs font-extrabold uppercase tracking-wider backdrop-blur-md">
