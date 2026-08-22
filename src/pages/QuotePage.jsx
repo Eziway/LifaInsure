@@ -53,7 +53,7 @@ export function QuotePage() {
 
               <div className="space-y-3 pt-2">
                 <a
-                  href="tel:0117868855"
+                  href="tel:0826407493"
                   className="flex items-center gap-3 p-3 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 transition-colors"
                 >
                   <div className="p-2 rounded-lg bg-lifa-navy text-white">
@@ -61,7 +61,7 @@ export function QuotePage() {
                   </div>
                   <div>
                     <div className="text-[10px] font-bold text-slate-500 uppercase">Landline Office</div>
-                    <div className="text-sm font-bold text-slate-900">011 786 8855</div>
+                    <div className="text-sm font-bold text-slate-900">082 640 7493</div>
                   </div>
                 </a>
 

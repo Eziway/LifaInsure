@@ -8,7 +8,7 @@ import { Phone, Mail, MapPin, MessageSquare, Clock, ShieldCheck, Navigation } fr
 export function ContactPage() {
   usePageTitle(
     'Contact Us | Lifa Insurance Brokers cc',
-    'Get in touch with Lifa Insurance Brokers cc (FSP 43132) in Highlands North, Johannesburg. Call 011 786 8855 or WhatsApp 081 569 5790.'
+    'Get in touch with Lifa Insurance Brokers cc (FSP 43132) in Highlands North, Johannesburg. Call 082 640 7493 or WhatsApp 081 569 5790.'
   );
 
   return (
@@ -63,8 +63,8 @@ export function ContactPage() {
                   </div>
                   <div>
                     <div className="text-xs font-bold uppercase tracking-wider text-slate-500">Telephone Line</div>
-                    <a href="tel:0117868855" className="text-base font-extrabold text-slate-900 hover:text-lifa-navy transition-colors">
-                      011 786 8855
+                    <a href="tel:0826407493" className="text-base font-extrabold text-slate-900 hover:text-lifa-navy transition-colors">
+                      082 640 7493
                     </a>
                   </div>
                 </li>
@@ -106,7 +106,7 @@ export function ContactPage() {
               {/* Direct Quick CTA Buttons */}
               <div className="pt-4 border-t border-slate-100 flex flex-wrap gap-2">
                 <a
-                  href="tel:0117868855"
+                  href="tel:0826407493"
                   className="flex-1 py-2.5 px-4 rounded-xl bg-lifa-navy text-white text-center font-bold text-xs shadow hover:bg-lifa-darkNavy transition-colors"
                 >
                   CALL US NOW

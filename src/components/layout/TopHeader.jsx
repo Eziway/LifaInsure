@@ -16,11 +16,11 @@ export function TopHeader() {
         {/* Right: Contact Links */}
         <div className="flex items-center gap-6">
           <a 
-            href="tel:0117868855" 
+            href="tel:0826407493" 
             className="flex items-center gap-1.5 hover:text-white transition-colors"
           >
             <Phone className="w-3.5 h-3.5 text-lifa-gold" />
-            <span>011 786 8855</span>
+            <span>082 640 7493</span>
           </a>
 
           <a 

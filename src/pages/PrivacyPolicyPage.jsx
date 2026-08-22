@@ -40,7 +40,7 @@ export function PrivacyPolicyPage() {
 
         <h2 className="text-xl font-bold text-slate-900">5. Contact Information</h2>
         <p>
-          For enquiries regarding your personal information, contact our Information Officer at <strong>admin@lifabrokers.co.za</strong> or <strong>011 786 8855</strong>.
+          For enquiries regarding your personal information, contact our Information Officer at <strong>admin@lifabrokers.co.za</strong> or <strong>082 640 7493</strong>.
         </p>
       </div>
     </div>

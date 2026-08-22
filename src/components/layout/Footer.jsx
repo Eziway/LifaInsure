@@ -29,11 +29,11 @@ export function Footer() {
               REQUEST A QUOTE
             </Link>
             <a
-              href="tel:0117868855"
+              href="tel:0826407493"
               className="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-sm border border-white/20 transition-all flex items-center gap-2"
             >
               <Phone className="w-4 h-4 text-lifa-gold" />
-              <span>011 786 8855</span>
+              <span>082 640 7493</span>
             </a>
           </div>
         </div>
@@ -137,8 +137,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-lifa-gold shrink-0" />
-                <a href="tel:0117868855" className="hover:text-white transition-colors text-xs font-semibold">
-                  011 786 8855
+                <a href="tel:0826407493" className="hover:text-white transition-colors text-xs font-semibold">
+                  082 640 7493
                 </a>
               </li>
               <li className="flex items-center gap-2.5">

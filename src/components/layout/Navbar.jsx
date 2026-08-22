@@ -130,11 +130,11 @@ export function Navbar() {
 
               <div className="grid grid-cols-2 gap-2 pt-2">
                 <a
-                  href="tel:0117868855"
+                  href="tel:0826407493"
                   className="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-lg bg-slate-100 text-slate-800 text-xs font-semibold"
                 >
                   <Phone className="w-4 h-4 text-lifa-navy" />
-                  <span>011 786 8855</span>
+                  <span>082 640 7493</span>
                 </a>
 
                 <a
